@@ -58,8 +58,8 @@ function drawbg(){
             l: w,  
             z: o(v, "zIndex", -1),//这里作为背景设置index:-1  
             o: o(v, "opacity", 0.5),  
-            c: o(v, "color", "15,136,235"),//两点之间连线的颜色  
-            n: o(v, "count", 299)//整个屏幕里面散点的数量  
+            c: o(v, "color", "0,0,0"),//两点之间连线的颜色  
+            n: o(v, "count", 99)//整个屏幕里面散点的数量  
         }
     }
     
